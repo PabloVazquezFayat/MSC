@@ -6,12 +6,15 @@ install latest MongoDB image using docker
 
 using command: 
 
-***docker run -d -p 27017:27017 --name test-mongo mongo:latest***
-
+```sh
+docker run -d -p 27017:27017 --name test-mongo mongo:latest
+```
 ##### Step - 2 
 cd into msc-api and run command:
 
+```sh
 npm run seed
+```
 
 this will seed the DB with contact data
 
