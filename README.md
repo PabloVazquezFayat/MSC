@@ -20,6 +20,7 @@ we need to create a text index so that our text search can work properly
 in the terminal type mongo to open the mongo shell then run:
 
 ***use contact***
+then run command:
 ***db.contacts.createIndex({ "name": "text", "address": "text", "phoneNumber": "text", "email": "text" });***
 
 this will generate the index for our collection
