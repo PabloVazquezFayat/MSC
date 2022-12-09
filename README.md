@@ -11,7 +11,7 @@ using command:
 ##### Step - 2 
 cd into msc-api and run command:
 
-***npm run seed***
+npm run seed
 
 this will seed the DB with contact data
 
@@ -19,9 +19,9 @@ this will seed the DB with contact data
 we need to create a text index so that our text search can work properly 
 in the terminal type mongo to open the mongo shell then run:
 
-***use contact***
+use contact
 then run command:
-***db.contacts.createIndex({ "name": "text", "address": "text", "phoneNumber": "text", "email": "text" });***
+db.contacts.createIndex({ "name": "text", "address": "text", "phoneNumber": "text", "email": "text" });
 
 this will generate the index for our collection
 
@@ -33,6 +33,6 @@ npm run start
 ##### Step - 5
 cd into mse-fe and run command
 
-***npm run dev***
+npm run dev
 
 to run front-end app
