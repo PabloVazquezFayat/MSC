@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node server/server.js",
-    "seed": "node seeds/seed.contacts.js"
+    "seed": "node seeds/seed.contact.js"
   },
   "author": "Pablo Vazquez",
   "license": "ISC",
