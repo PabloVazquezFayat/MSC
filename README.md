@@ -34,17 +34,28 @@ db.contacts.createIndex({ "name": "text", "address": "text", "phoneNumber": "tex
 this will generate the index for our collection
 
 ##### Step - 4
-run command to start the API
+run command to install dependency packages
+
+```sh
+npm install
+```
+
+##### Step - 5
+run command to start api 
 
 ```sh
 npm run start
 ```
 
-##### Step - 5
-cd into mse-fe and run command
+##### Step - 6
+run command to install dependency packages
+
+```sh
+npm install
+```
+##### Step - 6
+run command to run front-end app
 
 ```sh
 npm run dev
 ```
-
-to run front-end app
