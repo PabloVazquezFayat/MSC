@@ -53,7 +53,7 @@ run command to install dependency packages
 ```sh
 npm install
 ```
-##### Step - 6
+##### Step - 7
 run command to run front-end app
 
 ```sh
